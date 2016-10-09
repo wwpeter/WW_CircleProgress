@@ -18,6 +18,6 @@
 
 //设置进度 范围0~1.0
 @property (nonatomic, assign) double progress;
-@property (nonatomic ,assign) CGFloat winth;
+//@property (nonatomic ,assign) CGFloat winth;
 
 @end

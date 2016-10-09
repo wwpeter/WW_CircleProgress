@@ -22,6 +22,7 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
 @property(nonatomic, strong) CAShapeLayer *progressLayer;
 //灰色的layer
 @property(nonatomic, strong) CAShapeLayer *grayProgressLayer;
+
 @end
 
 
@@ -126,4 +127,8 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
 #pragma mark - setter
 
 
+- (void)dealloc {
+    [_timer invalidate];
+    _timer = nil;
+}
 @end
