@@ -6,12 +6,6 @@
 //  Copyright © 2016年 WW. All rights reserved.
 //
 
-/*
- CCCircleView *circle = [[CCCircleView alloc]initWithFrame:CGRectMake(50, 400, 200, 200)];
- circle.progress = 0.5;
- [self.view addSubview:circle];
- */
-
 #import <UIKit/UIKit.h>
 
 @interface CCCircleView : UIView
